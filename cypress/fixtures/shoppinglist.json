@@ -1,0 +1,20 @@
+[
+    {
+        "category": "Phones",
+        "model": "HTC One M9",
+        "price": 700,
+        "tbd": true
+    },
+    {
+        "category": "Laptops",
+        "model": "MacBook air",
+        "price": 700,
+        "tbd": false
+    },
+    {
+        "category": "Monitors",
+        "model": "ASUS Full HD",
+        "price": 230,
+        "tbd": false
+    }    
+]

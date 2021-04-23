@@ -1,0 +1,5 @@
+{
+    "env": {
+        "apiUrl": "https://api.demoblaze.com"
+    }
+}
