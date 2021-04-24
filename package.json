@@ -3,12 +3,18 @@
   "version": "1.0.0",
   "description": "demoblaze e2e testing with cypress",
   "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx cypress test",
+    "open": "npx cypress open",
+    "feature": "cypress run --spec **/*.features"
   },
   "author": "Nayla Taguada",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^7.1.0"
+    "cypress": "^7.1.0",
+    "cypress-cucumber-preprocessor": "^4.1.0"
   }
 }
